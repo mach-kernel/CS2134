@@ -59,8 +59,8 @@ int main(void)
     classroom.push_back(Student("Steve", 22));
     
     // How would I go about sorting these students by age? std::sort? Can I?
-    // sort(classroom.begin(), classroom.end());
-    sort(classroom.begin(), classroom.end(), comp);
+    sort(classroom.begin(), classroom.end());
+    //sort(classroom.begin(), classroom.end(), comp);
     
     /*
      The above line does NOT compile, but why? Surely it's syntacticly correct?!
@@ -69,6 +69,7 @@ int main(void)
      
      The second overload is very important. If you have a user-defined class,
      you will need to write your own comparator function. Let's do that, shall we?
+     (Uncomment line two, and look at comp)
      */
     
     // Let's see if our sorting function works!
