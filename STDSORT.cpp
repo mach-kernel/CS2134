@@ -69,7 +69,7 @@ int main(void)
      
      The second overload is very important. If you have a user-defined class,
      you will need to write your own comparator function. Let's do that, shall we?
-     (Uncomment line two, and look at comp)
+     (Uncomment the second sort call, comment the first, and look at comp)
      */
     
     // Let's see if our sorting function works!
