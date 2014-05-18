@@ -127,6 +127,5 @@ int main(void)
 	tree.printPostOrder();
 	tree.printPreOrder();
 
-	system("pause");
 	return 0;
 }
